@@ -1,0 +1,1 @@
+/Users/slava/projects/shopify/core-theme/core-theme/AGENTS.md
