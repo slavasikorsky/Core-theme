@@ -47,6 +47,22 @@
     "settings": [
       {
         "type": "select",
+        "id": "text_direction",
+        "label": "t:labels.text_direction",
+        "options": [
+          {
+            "value": "ltr",
+            "label": "t:options.text_direction.ltr"
+          },
+          {
+            "value": "rtl",
+            "label": "t:options.text_direction.rtl"
+          }
+        ],
+        "default": "ltr"
+      },
+      {
+        "type": "select",
         "id": "max_page_width",
         "label": "t:labels.page_width",
         "options": [

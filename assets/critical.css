@@ -78,6 +78,20 @@ body {
   color: var(--color-foreground);
 }
 
+/**
+ * RTL / LTR support
+ *
+ * The `dir` attribute on <html> (driven by `settings.text_direction`) is the
+ * single source of truth for text direction. The UA stylesheet already sets
+ * the CSS `direction` property from it, so components should prefer logical
+ * properties (`margin-inline-start`, `inset-inline-end`, `text-align: start`,
+ * etc.) over physical ones (`margin-left`, `right`, `text-align: left`) to
+ * automatically mirror in both directions.
+ */
+[dir="rtl"] {
+  direction: rtl;
+}
+
 /** Section layout utilities */
 
 /**

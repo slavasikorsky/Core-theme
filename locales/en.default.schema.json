@@ -56,6 +56,7 @@
     "show_account_icon": "Show account icon",
     "show_cart_icon": "Show cart icon",
     "show_payment_icons": "Show payment icons",
+    "text_direction": "Text direction",
     "text_style": "Text style",
     "text": "Text"
   },
@@ -76,6 +77,10 @@
     "size": {
       "large": "Large",
       "small": "Small"
+    },
+    "text_direction": {
+      "ltr": "Left to right",
+      "rtl": "Right to left"
     },
     "text_style": {
       "title": "Title",
