@@ -25,13 +25,18 @@
     {% endif %}
 
     {% if section.settings.show_cart_icon %}
-      <a href="{{ routes.cart_url }}">
+      <a href="{{ routes.cart_url }}" class="header__cart">
         {% if cart.item_count > 0 %}
           <sup>{{ cart.item_count }}</sup>
         {% endif %}
 
         {{ 'icon-cart.svg' | inline_asset_content }}
       </a>
+    {% endif %}
+    {% if section.settings.menu.links.size > 0 %}
+      <button type="button" class="header__menu-toggle " aria-label="{{ 'general.accessibility.toggle_menu' | t }}">
+        {{ 'icon-menu.svg' | inline_asset_content }}
+      </button>
     {% endif %}
   </div>
 </header>
@@ -76,7 +81,7 @@
     grid-area: icons;
   }
   header.header--logo-left {
-    grid-template-areas: "logo menu icons";
+    grid-template-areas: 'logo menu icons';
   }
   header.header--logo-left .header__logo {
     justify-self: start;
@@ -88,7 +93,7 @@
     justify-self: end;
   }
   header.header--logo-center {
-    grid-template-areas: "menu logo icons";
+    grid-template-areas: 'menu logo icons';
   }
   header.header--logo-center .header__menu {
     justify-self: start;
@@ -100,7 +105,7 @@
     justify-self: end;
   }
   header.header--logo-right {
-    grid-template-areas: "icons menu logo";
+    grid-template-areas: 'icons menu logo';
   }
   header.header--logo-right .header__icons {
     justify-self: start;

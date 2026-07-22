@@ -1,0 +1,74 @@
+header {
+  height: 5rem;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+header a {
+  position: relative;
+  text-decoration: none;
+  color: var(--color-foreground);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header a sup {
+  position: absolute;
+  inset-inline-start: 100%;
+  overflow: hidden;
+  max-width: var(--page-margin);
+}
+header svg {
+  width: 2rem;
+}
+header .header__menu,
+header .header__icons {
+  display: flex;
+  gap: 1rem;
+}
+header .header__logo {
+  grid-area: logo;
+}
+header .header__menu {
+  grid-area: menu;
+}
+header .header__icons {
+  grid-area: icons;
+}
+header.header--logo-left {
+  grid-template-areas: "logo menu icons";
+}
+header.header--logo-left .header__logo {
+  justify-self: start;
+}
+header.header--logo-left .header__menu {
+  justify-self: center;
+}
+header.header--logo-left .header__icons {
+  justify-self: end;
+}
+header.header--logo-center {
+  grid-template-areas: "menu logo icons";
+}
+header.header--logo-center .header__menu {
+  justify-self: start;
+}
+header.header--logo-center .header__logo {
+  justify-self: center;
+}
+header.header--logo-center .header__icons {
+  justify-self: end;
+}
+header.header--logo-right {
+  grid-template-areas: "icons menu logo";
+}
+header.header--logo-right .header__icons {
+  justify-self: start;
+}
+header.header--logo-right .header__menu {
+  justify-self: center;
+}
+header.header--logo-right .header__logo {
+  justify-self: end;
+}
