@@ -13,10 +13,17 @@
   "sections": {
     "header": {
       "type": "header",
-      "settings": {}
+      "settings": {
+        "text_color": "#FFFFFF",
+        "background_color": "#505050",
+        "logo_position": "left",
+        "menu": "main-menu",
+        "show_account_icon": true,
+        "show_cart_icon": true
+      }
     }
   },
   "order": [
     "header"
-  ],
+  ]
 }
