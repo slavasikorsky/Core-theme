@@ -9,8 +9,11 @@
  */
 {
   "current": {
+    "type_primary_font": "serif",
     "logo": "shopify://shop_images/coffee.png",
     "logo_width": 50,
+    "background_color": "#C2C2C2",
+    "foreground_color": "#454242",
     "content_for_index": []
   }
 }
