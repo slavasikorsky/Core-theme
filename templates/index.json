@@ -9,12 +9,36 @@
  */
 {
   "sections": {
+    "hero_LiQHwJ": {
+      "type": "hero",
+      "name": "t:general.hero",
+      "settings": {
+        "heading": "Hero heading",
+        "subtext": "Add a short description to introduce your brand or promotion.",
+        "button_label": "Shop now",
+        "button_url": "",
+        "heading_color": "#ffffff",
+        "subtext_color": "#ffffff",
+        "background_image": "shopify://shop_images/cofee-shop-background-image.png",
+        "mobile_background_image": "shopify://shop_images/coffee-shop-background-image-mobile.png",
+        "background_color": "#e1caca",
+        "overlay_opacity": 30,
+        "size": "30rem",
+        "text_position": "flex-start",
+        "center_text": false,
+        "padding_top_desktop": 32,
+        "padding_bottom_desktop": 32,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
     "main": {
       "type": "hello-world",
       "settings": {}
     }
   },
   "order": [
+    "hero_LiQHwJ",
     "main"
   ]
 }

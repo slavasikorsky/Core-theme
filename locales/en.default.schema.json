@@ -1,4 +1,14 @@
 {
+  "paragraphs": {
+    "background_color_note": "Background color is only visible when no background image is selected."
+  },
+  "headers": {
+    "background": "Background",
+    "colors": "Colors",
+    "content": "Content",
+    "layout": "Layout",
+    "spacing": "Spacing"
+  },
   "general": {
     "404": "Not found",
     "article": "Article",
@@ -17,6 +27,7 @@
     "footer": "Footer",
     "group": "Group",
     "header": "Header",
+    "hero": "Hero",
     "layout": "Layout",
     "logo": "Logo",
     "main": "Main",
@@ -37,6 +48,15 @@
   "labels": {
     "alignment": "Alignment",
     "background": "Background",
+    "background_color": "Background color",
+    "background_image": "Background image",
+    "mobile_background_image": "Mobile background image",
+    "overlay_opacity": "Image overlay opacity",
+    "button_label": "Button label",
+    "button_url": "Button URL",
+    "center_text": "Center text",
+    "heading": "Heading",
+    "heading_color": "Heading color",
     "foreground": "Foreground",
     "primary": "Primary",
     "secondary": "Secondary",
@@ -50,9 +70,17 @@
     "logo_position": "Logo position",
     "menu": "Menu",
     "padding": "Padding",
+    "padding_bottom_desktop": "Bottom padding (desktop)",
+    "padding_bottom_mobile": "Bottom padding (mobile)",
+    "padding_top_desktop": "Top padding (desktop)",
+    "padding_top_mobile": "Top padding (mobile)",
     "page_margin": "Page margin",
     "page_width": "Page width",
     "show_account_icon": "Show account icon",
+    "size": "Size",
+    "subtext": "Subtext",
+    "subtext_color": "Subtext color",
+    "text_position": "Text block position",
     "show_cart_icon": "Show cart icon",
     "show_payment_icons": "Show payment icons",
     "text_color": "Text color",
@@ -70,12 +98,9 @@
       "horizontal": "Horizontal",
       "vertical": "Vertical"
     },
-    "page_width": {
-      "narrow": "Narrow",
-      "wide": "Wide"
-    },
     "size": {
       "large": "Large",
+      "medium": "Medium",
       "small": "Small"
     },
     "text_direction": {

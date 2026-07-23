@@ -62,20 +62,14 @@
         "default": "ltr"
       },
       {
-        "type": "select",
+        "type": "range",
         "id": "max_page_width",
         "label": "t:labels.page_width",
-        "options": [
-          {
-            "value": "90rem",
-            "label": "t:options.page_width.narrow"
-          },
-          {
-            "value": "110rem",
-            "label": "t:options.page_width.wide"
-          }
-        ],
-        "default": "90rem"
+        "min": 800,
+        "max": 2400,
+        "step": 40,
+        "unit": "px",
+        "default": 1440
       },
       {
         "type": "range",
